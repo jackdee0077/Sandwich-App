@@ -6,9 +6,9 @@ import random
 # Create your views here.
 
 ingredients = {
-    'meats':['turkey','veggie burger', 'ham'] ,
-    'cheeses':['provolone','pepper jack', 'fondue'] ,
-    'toppings':['onion','tomatoes','bell peppers'],
+    'meats': ['corned beef', 'pastrami', 'honey turkey', 'pepper steak', 'veggie burger'],
+    'cheeses': ['american', 'swiss', 'provolone', 'cheddar', 'mozzarella'],
+    'toppings': ['lettuce', 'tomato', 'onions', 'peppers', 'pickles']
 }
 
 class sandwichView(View):
